@@ -61,7 +61,9 @@ should *not* be relied upon for that purpose, as they are not reliable:
    IP/hostname. Authenticating with SASL avoids this if configured to abort the
    connection on authentication failure.
  - Connecting via a gateway (for instance, the webchat) will override
-   unaffiliated cloaks (see the "gateway cloaks" section above)
+   unaffiliated cloaks (see the "gateway cloaks" section above) and in some
+   cases set the username/ident and/or gecos on IRC to a representation of your
+   originating host or IP address.
  - Due to the nature of IRC services, there are some tricks which can cause
    services to reveal a cloaked user's IP/hostname.
  - Accepting a DCC chat/file transfer session, or clicking a link someone sends
